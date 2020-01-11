@@ -1,3 +1,3 @@
-import './lightboot.css';
+import lightboot from './lightboot.min.css';
 
-export default {};
+export default lightboot;
