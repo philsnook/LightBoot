@@ -1,0 +1,19 @@
+{
+  "name": "lightboot",
+  "version": "1.0.1",
+  "description": "CSS framework for laying out containers, rows and columns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philsnook/LightBoot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philsnook/LightBoot/issues"
+  },
+  "homepage": "https://github.com/philsnook/LightBoot#readme"
+}
