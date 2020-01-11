@@ -2,37 +2,111 @@
 
 <head>
     <title>lightboot</title>
-    <link href="lightboot.css" rel="stylesheet">
+    <!--
+        <link href="lightboot.css" rel="stylesheet">
+-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px !important;
+        }
+
+        example {
+            padding: 20px;
+            border: solid 1px lightgray;
+            min-height: 20px;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
     <h1>
         LightBoot - Lightweight version of BootStrap's responsive layouts.
     </h1>
-    <div class="container">
-        <div class="row">
-            <div style="background-color:lightgreen" class="col-sm-12 col-md-6">
-                Column 6 - 12
+
+    <section>
+        <h2>
+            Containers
+        </h2>
+        <p>
+            <a href="https://getbootstrap.com/docs/4.0/layout/overview/"
+                target="_blank">https://getbootstrap.com/docs/4.0/layout/overview/</a>
+        </p>
+        <example>
+            <div class="container-fluid">
+                <div class="row">
+                    <div style="background-color:lightgreen" class="col-sm-12 col-md-6">
+                        Column 6 - 12
+                    </div>
+                    <div style="background-color:lightblue" class="col-sm-12 col-md-6">
+                        Column 6 - 12
+                    </div>
+                </div>
+                <div class="row">
+                    <div style="background-color: orange" class="col-6 col-md-3">
+                        Column 6 - 3
+                    </div>
+                    <div style="background-color:green" class="col-6 col-md-3">
+                        Column 6 - 3
+                    </div>
+                    <div style="background-color:yellow" class="col-6 col-md-3">
+                        Column 6 - 3
+                    </div>
+                    <div style="background-color:red" class="col-6 col-md-3">
+                        Column 6 - 3
+                    </div>
+                </div>
             </div>
-            <div style="background-color:lightblue" class="col-sm-12 col-md-6">
-                Column 6 - 12
+        </example>
+    </section>
+
+    <section>
+        <h2>
+            Display
+        </h2>
+        <p>
+            <a href="https://getbootstrap.com/docs/4.0/utilities/display/"
+                target="_blank">https://getbootstrap.com/docs/4.0/utilities/display/</a>
+        </p>
+
+        <h3>d-none d-sm-block - Show on small devices</h3>
+        <example>
+            <div class="d-none d-sm-block">
+                visible on small devices
             </div>
-        </div>
-        <div class="row">
-            <div style="background-color: orange" class="col-6 col-md-3">
-                Column 6 - 3
+        </example>
+
+        <h3>d-none d-md-block - Show on medium devices</h3>
+        <example>
+            <div class="d-none d-md-block">
+                visible on medium devices
             </div>
-            <div style="background-color:green" class="col-6 col-md-3">
-                Column 6 - 3
+        </example>
+
+        <h3>d-none d-lg-block - Show on large devices</h3>
+        <example>
+            <div class="d-none d-lg-block">
+                visible on large devices
             </div>
-            <div style="background-color:yellow" class="col-6 col-md-3">
-                Column 6 - 3
+        </example>
+
+        <h3>d-none d-xl-block - Show on extra large devices</h3>
+        <example>
+            <div class="d-none d-xl-block">
+                visible on extra large devices
             </div>
-            <div style="background-color:red" class="col-6 col-md-3">
-                Column 6 - 3
-            </div>
-        </div>
-    </div>
+        </example>
+    </section>
 </body>
 
 </html>

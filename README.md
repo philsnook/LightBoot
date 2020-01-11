@@ -16,4 +16,26 @@ https://github.com/twbs/bootstrap/blob/v4.0.0/LICENSE
 
 ## React
 
+```
 import 'lightboot';
+
+const LineGraph = () => (
+  <div className="container">
+                    <div className="row">
+                      <div className="col-12 col-xl-6">
+                        Col 1
+                      </div>
+                      <div className="col-12 col-xl-6">
+                        Col 2
+                      </div>
+                      <div className="col-12 col-xl-6">
+                        Col 3
+                      </div>
+                      <div className="col-12 col-xl-6">
+                         Col 4
+                      </div>
+                    </div>
+                  </div>
+);
+
+```
