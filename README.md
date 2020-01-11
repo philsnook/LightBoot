@@ -19,8 +19,8 @@ https://github.com/twbs/bootstrap/blob/v4.0.0/LICENSE
 ```
 import 'lightboot';
 
-const LineGraph = () => (
-  <div className="container">
+const MyExample = () => (
+                <div className="container">
                     <div className="row">
                       <div className="col-12 col-xl-6">
                         Col 1
@@ -35,7 +35,9 @@ const LineGraph = () => (
                          Col 4
                       </div>
                     </div>
-                  </div>
+                </div>
 );
+
+export default MyExample;
 
 ```
