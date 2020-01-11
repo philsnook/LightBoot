@@ -1,45 +1,19 @@
 {
-  "_from": "lightboot",
-  "_id": "lightboot@1.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-Lw7q5LNgCVDm2QGtEOwIGzx2duJ1FM/+e0ReFmKxbkD1qzc5rkZE/0VSfNSBmkx0clfchmb/BavuPL376P8cgw==",
-  "_location": "/lightboot",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "lightboot",
-    "name": "lightboot",
-    "escapedName": "lightboot",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/lightboot/-/lightboot-1.0.0.tgz",
-  "_shasum": "3666bb839a21b8c4b1418d694f65c038a8d1f660",
-  "_spec": "lightboot",
-  "_where": "C:\\Dropbox\\Cloud\\Projects\\pk-operator-portal",
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/philsnook/LightBoot/issues"
-  },
-  "bundleDependencies": [],
-  "deprecated": false,
-  "description": "CSS framework for laying out containers, rows and columns.",
-  "homepage": "https://github.com/philsnook/LightBoot#readme",
-  "license": "ISC",
-  "main": "index.js",
   "name": "lightboot",
+  "version": "1.0.1",
+  "description": "CSS framework for laying out containers, rows and columns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/philsnook/LightBoot.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philsnook/LightBoot/issues"
   },
-  "version": "1.0.0"
+  "homepage": "https://github.com/philsnook/LightBoot#readme"
 }
