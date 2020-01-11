@@ -1,6 +1,6 @@
 {
   "name": "lightboot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CSS framework for laying out containers, rows and columns.",
   "main": "index.js",
   "scripts": {
