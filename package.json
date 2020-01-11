@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/philsnook/LightBoot/issues"
   },
-  "bundleDependencies": false,
+  "bundleDependencies": [],
   "deprecated": false,
   "description": "CSS framework for laying out containers, rows and columns.",
   "homepage": "https://github.com/philsnook/LightBoot#readme",
